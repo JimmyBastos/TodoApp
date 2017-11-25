@@ -1,0 +1,23 @@
+
+.todo {
+ display: flex;
+}
+.todo:nth-child(2n+1) {
+  background: rgb(243, 243, 243);
+}
+
+.todo .todo-description{
+  padding: 15px 0px;
+}
+.todo .todo-actions{
+  padding: 10px 0px;
+}
+
+.todo-form{
+  padding-bottom: 35px;
+}
+
+.is-done {
+  text-decoration: line-through;
+  color: grey;
+}

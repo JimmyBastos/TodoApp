@@ -1,0 +1,22 @@
+.btn {
+  margin-right: 5px; 
+}
+.table-actions{
+  width: 25%;
+  text-align: right;
+}
+.todo-form{
+  padding-bottom: 75px;
+}
+
+.table .btn {
+  float: right;
+}
+.is-done {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.is-hidden {
+  display: none;
+}
