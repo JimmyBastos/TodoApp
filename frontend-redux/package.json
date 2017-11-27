@@ -6,6 +6,7 @@
   "author": "Jimmy Bastos",
   "license": "MIT",
   "scripts": {
+    "serve": "http-server ./build",
     "clear": "rm -rf ./node_modules",
     "dev": "webpack-dev-server --progress --color --inline --hot",
     "production": "webpack --progress -p"
